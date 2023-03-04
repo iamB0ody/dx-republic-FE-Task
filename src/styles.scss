@@ -15,4 +15,19 @@ a {
     color: var(--main-color) !important;
     transition: all var(--transition-time) ease-in-out;
   }
+  &.button {
+    border: 2pt solid var(--main-color);
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    min-width: 120px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    &:hover {
+      background-color: white;
+    }
+  }
 }

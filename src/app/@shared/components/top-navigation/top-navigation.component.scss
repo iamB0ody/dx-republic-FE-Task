@@ -29,15 +29,6 @@
           padding: 5px;
         }
       }
-      &.login {
-        a {
-          border: 2pt solid var(--main-color);
-          border-radius: 20px;
-          &:hover {
-            background-color: white;
-          }
-        }
-      }
     }
   }
 }
