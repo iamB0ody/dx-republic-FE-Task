@@ -1,0 +1,20 @@
+:host {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: flex-end;
+  ul {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    li {
+      list-style: none;
+      color: white;
+      padding: 10px;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
