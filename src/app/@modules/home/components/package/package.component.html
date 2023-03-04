@@ -1,0 +1,18 @@
+<div class="package">
+  <div class="photo" [ngStyle]="{'background-image': 'url(' + package.photo + ')'}">
+    <span class="dim"></span>
+    <span class="popular" *ngIf="package.popular">Most Popular</span>
+  </div>
+  <h4>{{package.price}} {{package.currency}}</h4>
+  <h2>{{package.name}}</h2>
+  <ul class="details">
+    <li *ngFor="let detail of package.details">
+      {{detail.name}}
+      <ul>
+        <li *ngFor="let value of detail.value"><i class="bi bi-check2"></i> {{value.name}} : {{value.value}}</li>
+      </ul>
+    </li>
+  </ul>
+  <p>{{package.deliveryDays}} Days to deliver</p>
+  <a href="" class="button">choose plan</a>
+</div>
