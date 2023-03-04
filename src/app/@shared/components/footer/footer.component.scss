@@ -53,3 +53,19 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    .row {
+      .left-side {
+        order: 2;
+        margin-top: 15px;
+      }
+      .right-side {
+        & > ul {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
