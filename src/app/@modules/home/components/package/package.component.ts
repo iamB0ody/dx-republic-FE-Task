@@ -7,5 +7,10 @@ import { Package } from 'src/app/@shared/interfaces/package.interface';
   styleUrls: ['./package.component.scss']
 })
 export class PackageComponent {
+  collapsed: boolean = true;
   @Input() package!: Package;
+
+  toggle(){
+    this.collapsed = !this.collapsed;
+  }
 }
