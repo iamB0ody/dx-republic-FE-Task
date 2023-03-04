@@ -21,11 +21,6 @@
         font-weight: bold;
         font-size: 19px;
         min-width: 120px;
-        transition: color 0.3s ease-in-out;
-        &:hover {
-          color: var(--main-color);
-          transition: color 0.3s ease-in-out;
-        }
       }
       &.logo {
         img {
@@ -38,11 +33,8 @@
         a {
           border: 2pt solid var(--main-color);
           border-radius: 20px;
-          transition: all 0.3s ease-in-out;
           &:hover {
             background-color: white;
-            color: var(--main-color);
-            transition: all 0.3s ease-in-out;
           }
         }
       }
