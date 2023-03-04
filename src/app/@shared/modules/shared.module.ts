@@ -4,12 +4,14 @@ import { HeaderComponent } from '../components/header/header.component';
 import { FooterComponent } from '../components/footer/footer.component';
 import { TopNavigationComponent } from '../components/top-navigation/top-navigation.component';
 import { TopBarComponent } from '../components/top-bar/top-bar.component';
+import { BreadcrumbComponent } from '../components/breadcrumb/breadcrumb.component';
 
 const components = [
   HeaderComponent,
   FooterComponent,
   TopBarComponent,
-  TopNavigationComponent
+  TopNavigationComponent,
+  BreadcrumbComponent
 ];
 
 @NgModule({
