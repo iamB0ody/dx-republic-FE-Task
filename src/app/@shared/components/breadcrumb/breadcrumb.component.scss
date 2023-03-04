@@ -14,7 +14,7 @@
         text-decoration: none;
         font-weight: bold;
       }
-      &::after {
+      &:not(:last-child)::after {
         content: ">";
         margin: 5px;
         color: white;
