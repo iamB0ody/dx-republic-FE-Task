@@ -1,0 +1,50 @@
+:host {
+  display: flex;
+  // background-color: green;
+  border-bottom: 2pt solid white;
+  ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 0 20px 20px 20px;
+    li {
+      list-style: none;
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 19px;
+        min-width: 120px;
+        transition: color 0.3s ease-in-out;
+        &:hover {
+          color: var(--main-color);
+          transition: color 0.3s ease-in-out;
+        }
+      }
+      &.logo {
+        img {
+          height: 55px;
+          background-color: black;
+          padding: 5px;
+        }
+      }
+      &.login {
+        a {
+          border: 2pt solid var(--main-color);
+          border-radius: 20px;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            background-color: white;
+            color: var(--main-color);
+            transition: all 0.3s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+}
